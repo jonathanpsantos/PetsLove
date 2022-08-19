@@ -21,10 +21,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
-        android:text="Usuário"
+        android:text="@string/usu_rio"
         android:textAllCaps="true"
-        android:textColor="#000000"
+        android:textColor="@color/azul"
         android:textSize="20sp"
         android:textStyle="bold"
 
@@ -34,17 +35,19 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira o email"
+        android:hint="@string/insira_o_email"
         android:inputType="textEmailAddress"
-        android:maxLength="50" />
+        android:maxLength="50"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
-        android:text="Senha"
+        android:text="@string/senha"
         android:textAllCaps="true"
-        android:textColor="#000000"
+        android:textColor="@color/azul"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -52,22 +55,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira o senha"
+        android:hint="@string/insira_o_senha"
         android:inputType="textPassword"
-        android:maxLength="50" />
+        android:maxLength="50"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Entrar" />
+        android:text="@string/entrar" />
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Sair" />
+        android:text="@string/sair" />
 
 
 </LinearLayout>
